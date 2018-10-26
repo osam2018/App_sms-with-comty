@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- NOTE: order is important (the first matching state(s) is what is rendered) -->
+    <!-- selector가 눌렸을때 @drawable/button01_press 를 보여준다.-->
+    <item android:state_pressed="true">
+        <shape >
+
+            <!--도형안에 채워질 색을 정의한다.-->
+            <solid android:color="@color/GreyDark"/>
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/colorAccent" />
+                </shape>
+            </item>
+            <item android:bottom="1dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/colorPrimaryDark" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_selected="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorPrimaryDark" />
+        </shape>
+    </item>
+
+</selector>

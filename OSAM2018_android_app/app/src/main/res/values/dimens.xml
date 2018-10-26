@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="FontLarge">20sp</dimen>
+    <dimen name="FontMediumLarge">16sp</dimen>
+    <dimen name="FontMedium">14sp</dimen>
+    <dimen name="FontMediumSmall">12sp</dimen>
+    <dimen name="FontSmall">10sp</dimen>
+    <dimen name="FontVerySmall">8sp</dimen>
+    <dimen name="ToolbarHeight">42dp</dimen>
+    <dimen name="NavigationHEight">38dp</dimen>
+    <dimen name="IconSize">16dp</dimen>
+</resources>
