@@ -90,7 +90,7 @@ ___
 
 ## **자세한 설명**
 ___
-> - 내용
+> - 인트라넷 사용자와 인터넷 사용자를 연결하기 위한 연동 페이지
 > 
 >  ![image11](https://bitbucket.org/osam2018/images/raw/7265f6329d6e20d39f3e001a5aec8f5e7cb22512/%ED%99%94%EB%A9%B411.JPG)
 
