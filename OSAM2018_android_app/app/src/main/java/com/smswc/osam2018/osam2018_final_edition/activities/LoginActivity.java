@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -16,6 +17,8 @@ import com.smswc.osam2018.osam2018_final_edition.R;
 import com.smswc.osam2018.osam2018_final_edition.lib.Requester;
 
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
 import java.util.concurrent.ExecutionException;
 
 
@@ -37,14 +40,20 @@ public class LoginActivity extends AppCompatActivity {
         edtId = findViewById(R.id.edt_id);
         edtPw = findViewById(R.id.edt_pw);
         btnLogin = findViewById(R.id.btn_login);
-        sp = getPreferences(Context.MODE_PRIVATE);
+        sp = PreferenceManager.getDefaultSharedPreferences(this);
     }
 
     void setOnClickListener() {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-            String params = "id=" + edtId.getText().toString() + "&pw=" + edtPw.getText().toString();
+                String params = null;
+
+                String id = edtId.getText().toString();
+                String pw = edtPw.getText().toString();
+                params = "id=" + id + "&pw=" + pw;
+
+
                 try {
                     JsonElement element = Requester.sendRequest("post", "/auth/login", params);
 

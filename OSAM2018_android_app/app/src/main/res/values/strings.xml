@@ -28,4 +28,7 @@
 
     <string name="article_read">글읽기</string>
     <string name="article_write">글쓰기</string>
+
+    <string name="total_getout">총 출타 일</string>
+    <string name="total_getout_value">36</string>
 </resources>
