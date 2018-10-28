@@ -94,3 +94,7 @@ ___
 > 
 >  ![image11](https://bitbucket.org/osam2018/images/raw/7265f6329d6e20d39f3e001a5aec8f5e7cb22512/%ED%99%94%EB%A9%B411.JPG)
 
+## **참고**
+---
+> 프로젝트 설계서 : https://ovenapp.io/view/fz9uEK7gv7BcfeFZeKtk12zfgcliNrmQ/
+>
