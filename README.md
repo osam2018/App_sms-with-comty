@@ -76,7 +76,7 @@ ___
 > 
 >  ![image8](https://bitbucket.org/osam2018/images/raw/7265f6329d6e20d39f3e001a5aec8f5e7cb22512/%ED%99%94%EB%A9%B48.JPG)
 >  ![image9](https://bitbucket.org/osam2018/images/raw/7265f6329d6e20d39f3e001a5aec8f5e7cb22512/%ED%99%94%EB%A9%B49.JPG)
->  ![image10](https://bitbucket.org/osam2018/images/raw/7265f6329d6e20d39f3e001a5aec8f5e7cb22512/%ED%99%94%EB%A9%B410.JPG)
+>  ![image10](https://bitbucket.org/osam2018/images/raw/d3c2fe7f63280c89d93013583961602490cfd711/%ED%99%94%EB%A9%B410.jpg)
 >
 
 > - 사용자 정보 확인 / 변경
